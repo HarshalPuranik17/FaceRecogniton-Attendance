@@ -72,24 +72,6 @@ while True:
             markAttendance(name)
 
 
-
-
-
-
-
-
     cv2.imshow('Webcam',img)
     cv2.waitKey(1)
 
-
-
-
-# encodeElon = face_recognition.face_encodings(imgElon)[0]
-# cv2.rectangle(imgElon,(faceloc[3],faceloc[0]),(faceloc[1],faceloc[2]),(255,0,255),2)
-
-# facelocTest = face_recognition.face_locations(imgTest)[0]
-# encodeTest = face_recognition.face_encodings(imgTest)[0]
-# cv2.rectangle(imgTest,(faceLocTest[3],faceLoc[0]),(faceLocTest[1],faceLockTest[2]),(255,0,255),2)
-
-# results = face_recogniton.compare_faces([encodeElon],encodeTest)
-# faceDis = face_recognition.face_distance([encodeElon],encodeTest)
